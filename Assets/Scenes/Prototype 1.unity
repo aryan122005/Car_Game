@@ -754,6 +754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c53fe7aacfb84b41a5e29967c4cceb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  speed: 5
 --- !u!1001 &1186943153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -861,6 +862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c53fe7aacfb84b41a5e29967c4cceb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  speed: 8.68
 --- !u!1 &1188518579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8780424320546655309, guid: 71782582b9d2cac4cba5251a3b767d13, type: 3}
@@ -1037,6 +1039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c53fe7aacfb84b41a5e29967c4cceb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  speed: 5
 --- !u!1 &1385500137
 GameObject:
   m_ObjectHideFlags: 0
