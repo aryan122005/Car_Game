@@ -382,6 +382,7 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
   - component: {fileID: 534669906}
+  - component: {fileID: 534669907}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -507,6 +508,19 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &534669907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5da7eb450d683f42964cc6d3cc02da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
+  player: {fileID: 1186943154}
 --- !u!1001 &870613562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1428,7 +1442,6 @@ SceneRoots:
   - {fileID: 534669905}
   - {fileID: 170076735}
   - {fileID: 1385500138}
-  - {fileID: 1186943153}
   - {fileID: 1169883258}
   - {fileID: 1381608793}
   - {fileID: 2704844}
@@ -1436,3 +1449,4 @@ SceneRoots:
   - {fileID: 870613562}
   - {fileID: 1928596170}
   - {fileID: 1848896178}
+  - {fileID: 1186943153}
